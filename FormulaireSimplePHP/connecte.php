@@ -14,7 +14,7 @@
                     $pseudo = $_POST['pseudo'];
                     $password = $_POST['password'];
 
-                    if($pseudo == 'Alex' && $password == "1234"){
+                    if($pseudo === 'Alex' && $password === "1234"){
                         echo "<p>Vous êtes connecté " . $pseudo . "</p>";
                         echo "<p>Mot de passe : " . $password . "</p>";
                     }
